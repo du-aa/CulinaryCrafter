@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/sort_low_high"
+        android:title="Sort by Calories (Low to High)"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sort_high_low"
+        android:title="Sort by Calories (High to Low)"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/filter_by_cuisine"
+        android:title="Filter by Cuisine"
+        android:icon="@drawable/ic_filter1"
+        app:showAsAction="never" />
+
+</menu>

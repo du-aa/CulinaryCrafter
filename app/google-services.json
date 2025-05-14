@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "153969617224",
+    "firebase_url": "https://fashionbrand-39613-default-rtdb.firebaseio.com",
+    "project_id": "fashionbrand-39613",
+    "storage_bucket": "fashionbrand-39613.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153969617224:android:4be58187a59bf5f5e8eb7d",
+        "android_client_info": {
+          "package_name": "com.example.onlinefashionbrand"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153969617224-fo743hi2fddp6celgqkpcuhh2lr6ocda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0thZSX8NmCb0QE7rx625tHGgL98Z3uZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153969617224-fo743hi2fddp6celgqkpcuhh2lr6ocda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153969617224:android:7dc90326799167bee8eb7d",
+        "android_client_info": {
+          "package_name": "com.example.reciperecommendation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153969617224-fo743hi2fddp6celgqkpcuhh2lr6ocda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0thZSX8NmCb0QE7rx625tHGgL98Z3uZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153969617224-fo743hi2fddp6celgqkpcuhh2lr6ocda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

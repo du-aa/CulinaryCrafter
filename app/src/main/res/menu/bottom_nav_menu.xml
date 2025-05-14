@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Explore" />
+    <item
+        android:id="@+id/nav_result"
+        android:icon="@drawable/baseline_stacked_line_chart_24"
+        android:title="Track Nutrition" />
+    <item
+        android:visible="false"
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/profileicon"
+        android:title="Profile" />
+    <item
+        android:id="@+id/track_full"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Track Full" />
+</menu>

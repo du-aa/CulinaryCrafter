@@ -1,0 +1,133 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Title -->
+        <TextView
+            android:fontFamily="@font/myfont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI Calorie Calculator"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Input Fields -->
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter weight (kg)"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn"
+            android:fontFamily="@font/myfont" />
+
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter height (cm)"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn"
+            android:fontFamily="@font/myfont" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter age (years)"
+            android:inputType="number"
+            android:padding="10dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn"
+            android:fontFamily="@font/myfont" />
+
+        <EditText
+            android:id="@+id/waist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter waist (cm)"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn"
+            android:fontFamily="@font/myfont" />
+
+        <!-- Gender Selection -->
+        <RadioGroup
+            android:id="@+id/genderGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:fontFamily="@font/myfont">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female" />
+        </RadioGroup>
+
+        <!-- Activity Level Dropdown -->
+        <Spinner
+            android:id="@+id/activityLevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/myfont" />
+
+        <!-- Goal Selection -->
+        <Spinner
+            android:id="@+id/goal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/myfont" />
+
+        <!-- Calculate Button -->
+        <Button
+            android:id="@+id/calculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bt_uisquare"
+            android:fontFamily="@font/myfont" />
+
+        <!-- Result -->
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI  Calories: --"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/myfont" />
+    </LinearLayout>
+</ScrollView>

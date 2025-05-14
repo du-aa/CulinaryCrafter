@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Pressed State (Darker for a Click Effect) -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="30dp"/> <!-- Fully Rounded Corners -->
+            <gradient
+                android:angle="45"
+                android:startColor="@color/colorAccent"
+            android:endColor="@color/colorNavIcon"/> <!-- Even Darker Green -->
+            <shadowColor android:color="#B0B0B0"/>
+            <padding android:left="16dp" android:right="16dp"/>
+        </shape>
+    </item>
+
+    <!-- Default State -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="30dp"/>
+            <gradient
+                android:angle="45"
+                android:startColor="@color/colorAccent"
+            android:endColor="@color/colorAccent"/>
+            <shadowColor android:color="#808080"/>
+            <padding android:left="16dp" android:right="16dp"/>
+        </shape>
+    </item>
+</selector>

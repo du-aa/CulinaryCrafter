@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:padding="10dp"
+        tools:context=".Management.LoginInPage">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/LogInbtn"
+                android:layout_width="match_parent"
+
+                android:layout_height="40dp"
+                android:background="@drawable/background"
+                android:gravity="center"
+                android:text="Registration"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/simchooseimg"
+                android:layout_width="190dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:src="@drawable/camera2"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/simnamedriver"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/btn"
+                android:elevation="5dp"
+                android:hint=" Your Name"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/black" />
+
+            <EditText
+                android:id="@+id/simAddress"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:elevation="5dp"
+                android:hint=" Email "
+                android:inputType="textEmailAddress"
+                android:paddingLeft="15dp"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/black" />
+
+            <EditText
+                android:id="@+id/simpasswordriver"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:elevation="5dp"
+                android:hint=" Password "
+                android:inputType="textPassword"
+                android:paddingLeft="15dp"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/black" />
+
+            <EditText
+                android:id="@+id/simcontact"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:elevation="5dp"
+                android:hint=" Phone "
+                android:inputType="number"
+                android:paddingLeft="15dp"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/black" />
+
+            <EditText
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:elevation="5dp"
+                android:hint=" Age (Optional) "
+                android:inputType="number"
+                android:paddingLeft="15dp"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/black" />
+
+            <EditText
+                android:id="@+id/simcnic"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:elevation="5dp"
+                android:hint=" Cnic "
+                android:inputType="number"
+                android:paddingLeft="15dp"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/black" />
+
+            <EditText
+                android:id="@+id/location"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:elevation="5dp"
+                android:hint=" Select Location "
+                android:inputType="number"
+                android:paddingLeft="15dp"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/black" />
+
+
+            <Spinner
+                android:id="@+id/usertype"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn"
+                android:elevation="5dp"
+                android:entries="@array/usertype"
+                android:inputType="number"
+                android:paddingLeft="15dp"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/black" />
+
+
+            <Spinner
+                android:id="@+id/spinner_dietary"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_margin="16dp"
+                android:entries="@array/dietary_preferences"
+                android:spinnerMode="dropdown" />
+            <Spinner
+                android:id="@+id/spinner_allergies"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_margin="16dp"
+                android:entries="@array/food_allergies"
+                android:spinnerMode="dropdown" />
+
+            <ProgressBar
+                android:id="@+id/simprogressbar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/simbtn"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/bt_uisquare"
+                android:elevation="5dp"
+                android:text="Join Us"
+                android:textAllCaps="false"
+                android:textColor="#F6F1F1" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="By Pressing 'Join Us' You agree\n     to our trems and conditions"
+                android:textColor="#F6F1F1" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RecipeRecommendation" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:fontFamily">@font/myfont</item>
+        <item name="android:statusBarColor">@color/colorAccent</item>
+
+
+    </style>
+
+    <style name="Theme.RecipeRecommendation" parent="Base.Theme.RecipeRecommendation" />
+
+    <style name="Theme.RecipeRecommendation.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="Theme.RecipeRecommendation.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.RecipeRecommendation.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">CulinaryCrafter</string>
+    <string-array name="usertype">
+        <item>User</item>
+    </string-array>
+    <string-array name="dietary_preferences">
+        <item>Vegetarian</item>
+        <item>Non Vegeterian</item>
+    </string-array>
+    <string-array name="food_allergies">
+        <item>Lactose Intolerance</item>
+        <item>Gluten Allergy</item>
+        <item>Peanut Allergy</item>
+        <item>Seafood Allergy</item>
+        <item>Nut Allergy</item>
+        <item>Egg Allergy</item>
+        <item>Soy Allergy</item>
+    </string-array>
+    <string name="title_activity_nav_drawer">NavDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>
